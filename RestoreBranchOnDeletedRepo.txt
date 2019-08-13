@@ -1,0 +1,4 @@
+RESTORE BRANCH ON DELETED REPO:
+
+git fetch upstream pull/1569/head:SYN-6232
+

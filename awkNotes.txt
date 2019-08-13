@@ -1,0 +1,3 @@
+
+1. the syntax is --> awk ' condition { action }'
+2. place where characters get printed is known as “standard out”
