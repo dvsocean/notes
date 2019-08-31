@@ -1,0 +1,11 @@
+Place this in /etc/hosts
+
+0.0.0.0 tools.google.com
+
+
+
+from terminal:
+defaults write com.google.Keystone.Agent checkInterval 0
+
+to re-enable:
+defaults write com.google.Keystone.Agent checkInterval 18000

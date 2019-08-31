@@ -1,0 +1,28 @@
+#! /bin/bash
+
+if [[ $1 == 'chrome' ]]; then
+	open -a "Google Chrome"
+elif [[ $1 == 'safari' ]]
+then
+	open -a Safari
+elif [[ $1 == 'atom' ]]
+then
+	open -a Atom
+elif [[ $1 == 'rm' ]]
+then
+	open -a RubyMine
+elif [[ $1 == 'slack' ]]
+then
+	open -a Slack
+elif [[ $1 == 'ff' ]]
+then
+	open -a Firefox
+elif [[ $1 == 'ol' ]]
+then
+	open -a "Microsoft Outlook"
+elif [[ $1 == 'subl' ]]
+then
+	open -a "Sublime Text"
+else
+	echo "WHAT DO YOU WANT ME TO LAUNCH?"
+fi

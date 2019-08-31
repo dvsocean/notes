@@ -6,3 +6,17 @@ $ git fetch upstream
 $ git checkout master
 $ git merge upstream/master
 $ git push
+
+-----------------------------------------------------------------------------------------------
+DIRECT 
+
+1. Change the current working directory to your local project.
+2. Check out the branch you wish to merge to. 
+$ git checkout DESIRED BRANCH
+
+3. directly command git upstreamRepo/branchName
+$ git pull https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git BRANCH_NAME
+(if there are conflicts, resolve them)
+
+4. Push the merge to your GitHub repository.
+$ git push origin master
